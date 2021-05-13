@@ -1,0 +1,27 @@
+:root {
+	--primary: #ff79c6;
+	--secondary: #32d97b;
+	--bglighter: #282a36;
+	--bgdarker: #21222c;
+	--neutral: #ffffff;
+	--dark: #000000;
+	--warning: #ffc107;
+	--grey: #e5ecee;
+	--anotherGrey: #808283;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+	color: var(--primary);
+}
+
+p {
+	color: var(--secondary);
+}

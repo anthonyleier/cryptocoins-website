@@ -1,0 +1,177 @@
+body,
+.body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--bgdarker);
+}
+
+.nome {
+	color: var(--primary);
+}
+
+.text {
+	color: var(--secondary);
+	font-size: 1rem;
+	font-weight: bolder;
+}
+
+.title {
+	color: var(--neutral);
+	font-size: 200%;
+	margin-top: 5rem;
+}
+
+.icon {
+	color: var(--neutral);
+	font-size: 3rem;
+	margin-right: 1rem;
+}
+
+.iconsBusiness {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 25%;
+	text-align: right;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.minicard {
+	width: 25%;
+	background-color: var(--bglighter);
+	padding: 2.5%;
+	border-radius: 5px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.deck {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+.minideck {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+.businessCard {
+	background-color: var(--bglighter);
+	display: flex;
+	width: 85%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-align: right;
+	margin-top: 2rem;
+	border-radius: 5px;
+}
+
+.businessCardInfo {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-right: 5rem;
+	margin-top: 3rem;
+}
+
+.infoTopic {
+	color: var(--secondary);
+	font-size: 1rem;
+}
+
+.infoDescription {
+	width: 20%;
+	color: var(--neutral);
+	font-weight: lighter;
+	font-size: 1rem;
+	text-align: right;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-top: 1.2rem;
+}
+
+.profilePictureBox {
+	width: 25%;
+	height: 25%;
+	padding-left: 7.5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.profilePicture {
+	border-radius: 50%;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 75%;
+}
+
+.form-button {
+	background-color: var(--secondary);
+	color: black;
+	font-size: 1rem;
+	padding: 0.375rem 0.75rem;
+	border: 1px solid transparent;
+	border-radius: 0.25rem;
+	line-height: 1.5;
+	text-decoration: none;
+	width: 25rem;
+	margin-top: 2rem;
+}
+
+.form-input {
+	color: var(--bglighter);
+	font-size: 1.2rem;
+	margin: 0 auto;
+	margin-top: 1rem;
+	padding: 1.5rem 2rem;
+	border-radius: 0.2rem;
+	background-color: var(--neutral);
+	border: none;
+	width: 25rem;
+	display: block;
+	border-bottom: 0.3rem solid transparent;
+	transition: all 0.3s;
+	height: 5px;
+}
+
+.formContato {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--bglighter);
+	padding: 5rem;
+	border-radius: 5px;
+}
+
+.icondeck {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+.hidden {
+	visibility: hidden;
+}
