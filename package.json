@@ -1,0 +1,25 @@
+{
+  "name": "cryptocoins-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyLeier/cryptocoins-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyLeier/cryptocoins-website/issues"
+  },
+  "homepage": "https://github.com/AnthonyLeier/cryptocoins-website#readme",
+  "dependencies": {
+    "next": "^10.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
